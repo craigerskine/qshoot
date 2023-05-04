@@ -94,7 +94,7 @@ end
 -- UPDATE START
 -- *** *** *** *** ***
 function update_start()
-  if btnp(4) or btnp(5) then
+  if btnp(5) then
     startgame()
   end
 end
@@ -242,7 +242,7 @@ end
 -- UPDATE OVER
 -- *** *** *** *** ***
 function update_over()
-  if btnp(4) or btnp(5) then
+  if btnp(5) then
     startgame()
   end
 end
@@ -251,7 +251,7 @@ end
 -- UPDATE WIN
 -- *** *** *** *** ***
 function update_win()
-  if btnp(4) or btnp(5) then
+  if btnp(5) then
     startgame()
   end
 end
@@ -263,7 +263,7 @@ end
 -- *** *** *** *** ***
 function draw_start()
   print("qshoot!",52,30,7)
-  print("press ❎(z) or 🅾️(x)",24,60,12)
+  print("press 🅾️(x) to start",24,60,12)
   print("❎(z) = shoot",40,75,13)
 end
 
@@ -327,7 +327,7 @@ end
 -- *** *** *** *** ***
 function draw_over()
   print("game over",50,30,7)
-  print("press ❎(z) or 🅾️(x)",24,60,12)
+  print("press 🅾️(x) to start again",24,60,12)
 end
 
 -- *** *** *** *** ***
@@ -335,7 +335,7 @@ end
 -- *** *** *** *** ***
 function draw_win()
   print("you win",50,30,7)
-  print("press ❎(z) or 🅾️(x)",24,60,12)
+  print("press 🅾️(x) to start again",24,60,12)
 end
 
 function starfield()
