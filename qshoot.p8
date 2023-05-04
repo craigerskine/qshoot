@@ -326,7 +326,7 @@ end
 -- DRAW OVER
 -- *** *** *** *** ***
 function draw_over()
-  print("game over",50,30,7)
+  print("game over",47,30,7)
   print("press 🅾️(x) to start again",12,60,12)
 end
 
@@ -392,7 +392,7 @@ function do_enm()
     y=-8,
     hp=5,
     fl=0,
-    scr=300
+    scr=1000
   }
   add(enms,theenm)
 end
