@@ -1,6 +1,8 @@
 pico-8 cartridge // http://www.pico-8.com
 version 41
 __lua__
+--qshoot
+--by craig erskine
 function _init()
   mode="start"
   t=0
