@@ -327,7 +327,7 @@ end
 -- *** *** *** *** ***
 function draw_over()
   print("game over",50,30,7)
-  print("press 🅾️(x) to start again",24,60,12)
+  print("press 🅾️(x) to start again",12,60,12)
 end
 
 -- *** *** *** *** ***
@@ -335,7 +335,7 @@ end
 -- *** *** *** *** ***
 function draw_win()
   print("you win",50,30,7)
-  print("press 🅾️(x) to start again",24,60,12)
+  print("press 🅾️(x) to start again",12,60,12)
 end
 
 function starfield()
